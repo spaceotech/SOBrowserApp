@@ -65,11 +65,6 @@ class ViewController: UIViewController,UIWebViewDelegate{
                 searchTextOnGoogle(text: urlString)
             }
         }
-        //
-        //        //MARK : - Animation For Search View
-        //        UIView.animate(withDuration: 0.8, animations: {
-        //            self.layoutTextField.constant = 0
-        //        }, completion: nil)
     }
     
     
