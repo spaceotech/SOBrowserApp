@@ -12,6 +12,7 @@
 		78B8C0CA220DB213005CAAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B8C0C8220DB213005CAAAC /* Main.storyboard */; };
 		78B8C0CC220DB216005CAAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B8C0CB220DB216005CAAAC /* Assets.xcassets */; };
 		78B8C0CF220DB216005CAAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B8C0CD220DB216005CAAAC /* LaunchScreen.storyboard */; };
+		F98BF1862282A08000944865 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98BF1852282A08000944865 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		78B8C0CB220DB216005CAAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78B8C0CE220DB216005CAAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78B8C0D0220DB216005CAAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98BF1852282A08000944865 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98BF1862282A08000944865 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				78B8C0C3220DB213005CAAAC /* SOBrowserApp */,
 				78B8C0C2220DB213005CAAAC /* Products */,
+				F98BF1842282A08000944865 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				78B8C0D0220DB216005CAAAC /* Info.plist */,
 			);
 			path = SOBrowserApp;
+			sourceTree = "<group>";
+		};
+		F98BF1842282A08000944865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F98BF1852282A08000944865 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
